@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WD WebSite</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="Styles/WD.css">
+</head>
+
+<body style="background-color: black; z-index: 0;">
+	<img style="height: 750px; position: fixed " src="site-background.jpg" alt="">
+	<div class="background-img">   
+	
+	<div class="header">
+
+		<div class="left-section">
+			<img class="logo" src="icons/file.png" alt="">
+			<p class="title">OVIEMATE</p>
+
+		</div>
+
+		<div class="middle-section">
+
+			<p style="display: inline-block; margin-left: 140px; text-decoration: underline; margin-top: 20px; cursor: pointer;">showtime</p>
+			<p style="display: inline-block; margin-left: 40px; margin-right: 40px; text-decoration: underline; margin-top: 20px; cursor: pointer;">cinemas</p>
+			<p style="display: inline-block; margin-top: 20px; text-decoration: underline; cursor: pointer;">offers</p>
+
+		</div>
+
+		<div class="right-section">
+			<button class="sign-buttons1">
+				Sign In
+			</button>
+			<button  class="sign-buttons2" >
+				Sign Up
+			</button>
+		</div>
+
+	</div>
+	<!---------------------------------------form box-------------------------------------------->
+     <!--<div class="form-box">
+		
+		<div class="register-container" id="register">
+			<div class="top">
+				<span>Have an account? <a href="#" onclick="login()">Login</a></span>
+				<header>sign up</header>
+			</div>
+			<div class="two-forms"></div>
+			<div class="input-field">
+				<input type="text" class="input-field" placeholder="Firstname">
+				<i class="bx bx-user"></i>
+			</div>
+			<div class="input-field">
+				<input type="text" class="input-field" placeholder="Lastname">
+				<i class="bx bx-user"></i>
+			</div>
+		</div>
+		<div class="input-field">
+			<input type="text" class="input-field" placeholder="Email">
+			<i class="bx bx-envelope"></i>
+		</div>
+		<div class="input-field">
+			<input type="password" class="input-field" placeholder="Password">
+			<i class="bx bx-locl-alt"></i>
+		</div>
+		<div class="input-field">
+			<input type="submit" class="submit" placeholder="Register">
+			<i class="bx bx-user"></i>
+		</div>
+		<div class="two-col">
+			<div class="one">
+				<input type="checkbox" id="register-check">
+			</div>
+			<label for="register-check">Remember Me</label>
+		</div>
+		<div class="two">
+			<a href="#">terms & conditions</a>
+		</div>
+		
+	
+	</div> -->
+	<div class="form-box">
+		<div class="first-line">
+			<div style="margin-right: 2px; font-size: 12px; font-family: arial;">Don't have an account?</div>
+			<div style="margin-left: 2px; font-size: 12px; text-decoration: underline; font-family: arial; cursor: pointer;">Sign Up</div>
+		</div>
+		<div class="second-line">
+		
+			<div style="padding-bottom: 10px; color: white; font-family: arial; margin-top: 24px; font-size: 24px; margin-bottom: 20px;">
+				Login
+			</div>
+			<div class="user-bar-icon">
+				<i style="position: absolute; left: 11px; top: 22%;"><svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#5f6368"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg></i>
+				<input class="text-bar" type="text" placeholder="Username or Email">
+			</div>
+			<div class="password-bar-icon">
+				<i style="position: absolute; left: 12px; top: 34%;"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="16px" fill="#5f6368"><path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z"/></svg></i>
+				<input class="password-bar" type="password" placeholder="Password">
+			</div>
+			<div>
+				<button class="signin-button">Sign In</button>
+			</div>
+		</div>
+		<div class="last-line">
+			<div class="checkbox">
+				<input  type="checkbox">
+				Remember Me
+			</div>
+			<div style="color: white; cursor: pointer; margin-left: 90px; font-family: arial; font-size: 12px;">
+				Forgot password?
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

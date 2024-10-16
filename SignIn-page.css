@@ -1,0 +1,150 @@
+body {
+	z-index: 1;
+	padding-bottom: 480px; 
+	padding-top: 90px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	justify-content: center;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	background-color: black;
+	border-bottom-width: 5px;
+    border-bottom-style: solid;
+    box-shadow: rgb(170, 5, 5) 4px 1px 16px;
+	z-index: 2;
+}
+
+.left-section {
+	background-color:black;
+	width: 240px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.logo {
+	height: 110px;
+	width: 80px;
+	margin-top: 10px;
+}
+
+.title {
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	font-family: Arial;
+	transform: scale(1,2);
+	margin-left: -128px;
+	margin-top: 14px;
+	text-shadow: rgba(144, 29, 29, 0.8) -3px 2px 4px;
+
+}
+
+.middle-section {
+	background-color: black;
+	flex: 1;
+	display: flex;
+	color: white;
+	font-weight: bold;
+}
+
+.right-section {
+	background-color: black;
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    flex-shrink: 0;
+}
+
+.search-bar {
+	height: 24px;
+	background-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: white;
+	padding-left: 26px;
+	color: white;
+	font-size: 16px;
+}
+
+.search {
+	height: 26px;
+	position: absolute;
+	margin-left: 3px;
+}
+
+.notification-bell {
+	height: 34px;
+	margin-left: -40px;
+	margin-right: -100px;
+}
+
+.channel-pic {
+	height: 28px;
+	margin-right: 26px;
+}
+
+.sign-buttons1 {
+	height: 32px;
+	width: 108px;
+	border: none;
+	border-radius: 15px;
+	background-color: rgb(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 12px;
+	font-family: arial;
+	font-weight: bold;
+	cursor: pointer;
+	transition: width 0.15s ;
+}
+
+.sign-buttons2 {
+	height: 32px;
+	width: 108px;
+	border: none;
+	border-radius: 15px;
+	background-color: rgb(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 12px;
+	font-family: arial;
+	margin-left: -40px;
+	margin-right: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: width 0.15s ;
+}
+
+.sign-buttons1:hover{
+	height: 36px;
+	width: 120px;
+	font-size: 14px;
+}
+
+.sign-buttons2:hover{
+	height: 36px;
+	width: 120px;
+	font-size: 14px;
+}
+
+.sign-buttons1:hover {
+	background-color: rgba(255, 255, 255, 0.267);
+}
+
+.sign-buttons2:hover {
+	background-color: rgba(255, 255, 255, 0.267);;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}

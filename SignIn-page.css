@@ -94,6 +94,17 @@ body {
 	height: 28px;
 	margin-right: 26px;
 }
+.form-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+	top: 100px;
+	z-index: 1;
+	padding-right: 20px;
+}
+
 
 .sign-buttons1 {
 	height: 32px;
@@ -147,4 +158,181 @@ body {
 
 ::-webkit-scrollbar {
 	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(31, 30, 30);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(44, 43, 43);
+	border-radius: 10px;
+	border: 3px soled #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(51, 50, 50);
+}
+
+.form-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+	top: 100px;
+	z-index: 1;
+	padding-right: 20px;
+}
+
+.first-line {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1;
+	color: white;
+
+}
+
+.second-line {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+
+.last-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 1;
+	margin-top: 8px;
+}
+
+.signin-button {
+	height: 38px;
+	width: 460px;
+	border-radius: 18px;
+	border: none;
+	font-family: arial;
+	font-size: 14px;
+	background-color: rgb(78, 11, 11, 0.4);
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.19s;
+}
+
+.signin-button:hover {
+	font-size: 16px;
+	color: rgb(78, 11, 11, 1);
+	background-color: rgba(162, 153, 153, 0.2);
+}
+
+.text-bar1 {
+	height: 36px;
+	width: 220px;
+	border-radius: 18px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	margin-right: 4px;
+}
+
+.text-bar2 {
+	height: 36px;
+	width: 220px;
+	border-radius: 18px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	margin-left: 4px;
+}
+
+
+
+.text-bar1::placeholder {
+	margin-left: 20px;
+	padding-left: 32px;
+	font-family: arial;
+}
+
+.text-bar2::placeholder {
+	margin-left: 20px;
+	padding-left: 32px;
+	font-family: arial;
+}
+
+.checkbox {
+	margin-right: 150px;
+	font-size: 12px;
+	font-family: arial;
+	color: white;
+}
+
+
+.Email-bar::placeholder {
+	padding-left: 34px;
+}
+
+.password-bar::placeholder {
+	margin-left: 20px;
+	padding-left: 40px;
+	font-family: arial;
+}
+
+.text-bar {
+	height: 36px;
+	width: 450px;
+	border-radius: 18px;
+	border: none;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+.text-bar::placeholder {
+	padding: 40px;
+}
+.user-bar-icon {
+	position: relative;
+	width: max-content;
+}
+
+.icon {
+	position: relative;
+	width: max-content;
+}
+
+.password-bar {
+	height: 36px;
+	width: 450px;
+	border-radius: 18px;
+	border: none;
+	margin-top: 2px;
+	margin-bottom: 18px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+.password-bar-icon {
+	position: relative;
+	width: max-content;
+}
+
+.background-img {
+	background-image: url(https://media.istockphoto.com/id/1347079028/photo/floating-red-smoke.jpg?s=612x612&w=0&k=20&c=D_c57n9j9etezARTW9NzWd0O6khfI_ViKLmrfFr1sTw=);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.input {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	border: none;
 }

@@ -4,6 +4,11 @@ body {
 	padding-top: 90px;
 	padding-left: 0px;
 	margin-left: 0px;
+	background-image: url(https://media.istockphoto.com/id/1347079028/photo/floating-red-smoke.jpg?s=612x612&w=0&k=20&c=D_c57n9j9etezARTW9NzWd0O6khfI_ViKLmrfFr1sTw=);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .header {
@@ -322,13 +327,6 @@ body {
 .password-bar-icon {
 	position: relative;
 	width: max-content;
-}
-
-.background-img {
-	background-image: url(https://media.istockphoto.com/id/1347079028/photo/floating-red-smoke.jpg?s=612x612&w=0&k=20&c=D_c57n9j9etezARTW9NzWd0O6khfI_ViKLmrfFr1sTw=);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .input {

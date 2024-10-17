@@ -249,13 +249,11 @@ body {
 
 .text-bar1::placeholder {
 	margin-left: 20px;
-	padding-left: 4px;
 	font-family: arial;
 }
 
 .text-bar2::placeholder {
 	margin-left: 20px;
-	padding-left: 4px;
 	font-family: arial;
 }
 
@@ -298,13 +296,8 @@ body {
 	padding-left: 34px;
 }
 
-.Email-bar::placeholder {
-	padding-left: 4px;
-}
-
 .password-bar::placeholder {
 	margin-left: 20px;
-	padding-left: 4px;
 	font-family: arial;
 }
 

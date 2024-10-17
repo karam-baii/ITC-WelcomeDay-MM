@@ -279,30 +279,23 @@ body {
 }
 
 
-.Email-bar::placeholder {
-	padding-left: 34px;
-}
-
 .password-bar::placeholder {
 	margin-left: 20px;
-	padding-left: 40px;
 	font-family: arial;
 }
 
 .text-bar {
 	height: 36px;
-	width: 450px;
+	width: 420px;
 	border-radius: 18px;
 	border: none;
 	margin-top: 18px;
 	margin-bottom: 18px;
 	background-color: rgba(255, 255, 255, 0.2);
 	color: #fff;
+	padding-left: 34px;
 }
 
-.text-bar::placeholder {
-	padding: 40px;
-}
 .user-bar-icon {
 	position: relative;
 	width: max-content;
@@ -315,13 +308,14 @@ body {
 
 .password-bar {
 	height: 36px;
-	width: 450px;
+	width: 420px;
 	border-radius: 18px;
 	border: none;
 	margin-top: 2px;
 	margin-bottom: 18px;
 	background-color: rgba(255, 255, 255, 0.2);
 	color: #fff;
+	padding-left: 34px;
 }
 
 .password-bar-icon {

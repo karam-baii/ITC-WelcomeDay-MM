@@ -439,8 +439,53 @@ footer {
     /* font-family: "Montserrat", sans-serif; */
 }
 
-
 .footer-Right img {
     width: 50px;
     margin: 10px;
+}
+
+.Register {
+    display: none; 
+    width: 300px;
+    text-align: center;
+    height: 150px;
+    background-color: rgba(67, 27, 27, 0.893);  
+    padding: 35px 25px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.RegisterButton {
+    text-decoration: none; 
+    background-color: black; 
+    color: #fff;
+    padding: 10px 40px; 
+    border: solid 1px #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+}
+
+.RegisterButton:hover {
+    color: #870606; 
+    background-color: #ccc;
+}
+
+#RemindMe {
+    padding: 10px 40px;
+    color: #fff; 
+    background-color: #000;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#RemindMe:hover {
+    background-color: #ccc;
+    color: #870606; 
 }
